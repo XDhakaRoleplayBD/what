@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Information</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #f2f2f2, #e6f7ff);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .card {
+        background-color: #ffffff;
+        padding: 30px 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        text-align: center;
+        animation: fadeIn 1s ease-in-out;
+    }
+    .card h2 {
+        color: #333333;
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+    .card p {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #555555;
+    }
+    .card .highlight {
+        font-weight: bold;
+        color: #007acc;
+    }
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(-20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+        <h2>Student Information</h2>
+        <p><span class="highlight">Name:</span> Al Saba Saddat</p>
+        <p><span class="highlight">ID:</span> 2222081070</p>
+        <p><span class="highlight">Batch:</span> 57(A)</p>
+    </div>
+</body>
+</html>
